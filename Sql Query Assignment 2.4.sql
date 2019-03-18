@@ -8,3 +8,4 @@ where customer.first_name='PATRICIA' and customer.last_name='JOHNSON'
 GROUP BY category.name
 ORDER BY count(category.name) DESC
 limit 3;
+
